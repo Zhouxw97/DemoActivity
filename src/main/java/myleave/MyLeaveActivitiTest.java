@@ -49,6 +49,7 @@ public class MyLeaveActivitiTest {
         //根据assignee(代理人)查询任务
         String assigness = "students";
         List<Task> tasks = taskService.createTaskQuery().taskAssignee(assigness).list();
+
         int size = tasks.size();
         for (int i = 0; i < size; i++) {
             Task task = tasks.get(i);
