@@ -8,6 +8,7 @@
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/demoactivity?useUnicode=true&amp;characterEncoding=utf8"></property>
         <property name="jdbcUsername" value="root"></property>
         <property name="jdbcPassword" value="123456"></property>
+        <!--创建表的策略-->
         <property name="databaseSchemaUpdate" value="true"></property>
     </bean>
 
